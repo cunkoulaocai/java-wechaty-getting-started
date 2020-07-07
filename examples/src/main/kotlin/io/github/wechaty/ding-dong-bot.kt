@@ -27,7 +27,9 @@ fun main() {
             val from = message.from()
             if (from != null) {
                 println("收到来自" + from.name() + "的消息:" + text)
+                from.say("[得意][得意]")
             }
+
         }
     })
 
